@@ -1,0 +1,40 @@
+{
+  "name": "@tsforge/{{kebabCase packageName}}",
+  "version": "0.0.1",
+  "description": "{{description}}",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "baithk",
+    "url": "https://github.com/baithk"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/baithk/tsforge/tree/main/packages/{{kebabCase packageName}}",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baithk/tsforge.git",
+    "directory": "packages/{{kebabCase packageName}}"
+  },
+  "bugs": {
+    "url": "https://github.com/baithk/tsforge/issues"
+  }
+}
