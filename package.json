@@ -16,7 +16,6 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
