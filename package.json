@@ -9,12 +9,8 @@
     "changeset": "changeset",
     "version": "changeset version",
     "release": "pnpm build && changeset publish",
-    "publish": "pnpm publish -r --access public",
+    "publish-packages": "pnpm publish -r --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   },
   "private": true,
   "keywords": [],
