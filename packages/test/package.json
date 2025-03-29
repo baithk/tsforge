@@ -1,7 +1,7 @@
 {
-  "name": "@tsforge/{{kebabCase packageName}}",
+  "name": "@tsforge/test",
   "version": "0.1.0",
-  "description": "{{description}}",
+  "description": "test",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -28,11 +28,11 @@
     "url": "https://github.com/baithk"
   },
   "license": "MIT",
-  "homepage": "https://github.com/baithk/tsforge/tree/main/packages/{{kebabCase packageName}}",
+  "homepage": "https://github.com/baithk/tsforge/tree/main/packages/test",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/baithk/tsforge.git",
-    "directory": "packages/{{kebabCase packageName}}"
+    "directory": "packages/test"
   },
   "bugs": {
     "url": "https://github.com/baithk/tsforge/issues"
