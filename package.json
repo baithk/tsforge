@@ -22,6 +22,7 @@
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.12",
     "plop": "^4.0.1",
     "rollup": "^4.36.0",
     "rollup-plugin-copy": "^3.5.0",
