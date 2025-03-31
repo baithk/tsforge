@@ -1,1 +1,5 @@
-export { navratri } from './navratri';
+export { navratri } from "./navratri";
+
+export const jai = {
+  fest: "navratri",
+};
