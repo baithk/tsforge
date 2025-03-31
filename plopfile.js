@@ -29,7 +29,11 @@ module.exports = function (plop) {
                 path: 'packages/{{kebabCase packageName}}/README.md',
                 templateFile: 'templates/README.md.hbs',
             },
-            // Add these new actions
+            {
+                type: 'add',
+                path: 'packages/{{kebabCase packageName}}/.npmignore',
+                templateFile: 'templates/.npmignore.hbs',
+            },
             {
                 type: 'add',
                 path: 'packages/{{kebabCase packageName}}/rollup.config.js',
