@@ -1,6 +1,0 @@
-src/
-tests/
-.turbo
-tsconfig.json
-rollup.config.js
-.npmignore
